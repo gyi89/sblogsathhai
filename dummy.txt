@@ -1,0 +1,19 @@
+git init 
+git remote add origin <repo-name>
+git add . {bag me sari books rakh li}
+git commit -m "msg"   {screenshot le liya}
+git push origin master {bus aa gyi , tum chle gye}
+
+==============================================================
+// credential reset
+
+git config --global --unset user.name
+git config --global --unset user.email
+git config --global --unset credential.helper
+cmdkey /delete:LegacyGeneric:target=git:https://github.com
+
+====================================================
+user.name & user.email add kerna chhate ho
+
+git config --global user.name “username”
+git config --global user.email emailaddr
